@@ -8,5 +8,6 @@ predictIt <- function(year) {
   result <-  predict(relation,a)
 }
 
-plot(x,y,col = "red" ,main = "Height & Weight Regression",
-     abline(lm(y~x)),cex = 1.3,pch = 16,xlab = "Percentage of Dropped Students",ylab = "Dropped Percentage of Students on Subject x For Year 1981 to 2000")
+plot(x,y,col = "red" ,main = "Dropped Percentage of Students on Subject x For Year 1981 to 2000",
+     abline(lm(y~x)),cex = 1.3,pch = 16,xlab = "Year",ylab = "Percentage of Dropped Students")
+
