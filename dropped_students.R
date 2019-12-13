@@ -1,5 +1,5 @@
 ## Load the CSV file
-data = read.csv("/home/carlomigueldy/Desktop/FACT_TABLE.csv", header = TRUE)
+data = read.csv("./FACT_TABLE.csv", header = TRUE)
 x <- c()
 y <- c()
 for(i in data[1]) { x <- i }
